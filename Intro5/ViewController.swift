@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    @IBOutlet weak var i5TextField: UITextField!
+    @IBOutlet weak var i5Label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +25,16 @@ class ViewController: UIViewController {
     }
 
 
+    // MARK: Action
+    @IBAction func i5ActionButton(sender: UIButton) {
+        
+        let textCheck = i5TextField.text ?? ""
+        if textCheck.isEmpty {
+            i5Label.text = "No text in the text field! Enter something and press the button"
+        } else {
+            i5Label.text = i5TextField.text
+        }
+    }
+    
 }
 

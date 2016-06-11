@@ -146,7 +146,6 @@
 				TargetAttributes = {
 					20C286F21D0C8DFD006EACDB = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3E3L6L75YM;
 					};
 					20C287061D0C8DFD006EACDB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -331,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro5;
@@ -342,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro5;
@@ -392,6 +393,7 @@
 				20C287121D0C8DFD006EACDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C287131D0C8DFD006EACDB /* Build configuration list for PBXNativeTarget "Intro5Tests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +402,7 @@
 				20C287151D0C8DFD006EACDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
