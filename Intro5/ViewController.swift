@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     // MARK: Action
     @IBAction func i5ActionButton(sender: UIButton) {
         
+        i5TextField.resignFirstResponder()
         let textCheck = i5TextField.text ?? ""
         if textCheck.isEmpty {
             i5Label.text = "No text in the text field! Enter something and press the button"
