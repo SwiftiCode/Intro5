@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
 
     // MARK: Action
-    @IBAction func i5ActionButton(sender: UIButton) {
+    @IBAction func i5ActionButton(_ sender: UIButton) {
         
         i5TextField.resignFirstResponder() 
         let textCheck = i5TextField.text ?? ""
